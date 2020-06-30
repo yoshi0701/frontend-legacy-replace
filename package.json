@@ -4,7 +4,7 @@
   "description": "書籍「レガシーフロントエンド安全改善ガイド」内の「実践編」で利用するサンプルコードリポジトリです。",
   "main": "index.js",
   "dependencies": {
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "typescript": "^3.9.5"
   },
   "devDependencies": {
