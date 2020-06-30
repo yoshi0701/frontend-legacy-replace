@@ -11,11 +11,19 @@
     "@types/jest": "^26.0.3",
     "@types/jest-environment-puppeteer": "^4.3.2",
     "@types/jest-image-snapshot": "^3.1.0",
+    "@types/jquery": "^3.5.0",
     "@types/node": "^14.0.14",
+    "eslint": "^7.3.1",
+    "jest-environment-node": "^26.1.0",
+    "jest-image-snapshot": "^4.0.2",
+    "jest-puppeteer": "^4.4.0",
+    "puppeteer": "^4.0.1",
+    "reg-suit": "^0.10.2",
     "ts-jest": "^26.1.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest spec/e2e.spec.js visual.spec.js",
+    "test:all": "jest"
   },
   "keywords": [],
   "author": "",
