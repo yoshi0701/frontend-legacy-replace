@@ -1,3 +1,4 @@
+/* eslint-disable func-names,no-var,vars-on-top,prefer-template */
 function updateAll() {
     var count = $('.todo').length;
     var next = $('.todo input').first();
@@ -13,6 +14,7 @@ function updateAll() {
         $('#todoEmpty').show();
     }
 }
+/* eslint-disable func-names,no-var,vars-on-top,prefer-template */
 function addTodo() {
     var wrapper = $('<div>');
     wrapper.addClass('todo');
